@@ -1,13 +1,13 @@
 {
   "name": "AFK Bot",
   "bot-account": {
-    "username": "Slobot00",
+    "username": "bot11",
     "password": "",
     "type": "offline"
   },
   "server": {
-    "ip": "apoclypse.falix.gg",
-    "port": 22169,
+    "ip": "162.55.28.90:25599",
+    "port": 25599,
     "version": "",
     "try-creative": false
   },
