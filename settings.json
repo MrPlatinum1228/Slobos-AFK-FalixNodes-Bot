@@ -8,8 +8,8 @@
   "server": {
     "ip": "apoclypse.falix.gg",
     "port": 25599,
-    "version": "1.21.1",
-    "try-creative": false
+    "version": "",
+    "try-creative": true
   },
   "position": {
     "enabled": true,
@@ -34,7 +34,7 @@
       ]
     },
     "chat-log": true,
-    "auto-reconnect": false,
+    "auto-reconnect": true,
     "auto-reconnect-delay": 2000,
     "max-reconnect-delay": 120000
   },
@@ -47,17 +47,17 @@
     },
     "look-around": {
       "enabled": true,
-      "interval": 1000
+      "interval": 5000
     },
     "random-jump": {
       "enabled": true,
-      "interval": 1000
+      "interval": 10000
     }
   },
   "modules": {
     "avoidMobs": false,
-    "combat": true,
-    "beds": true,
+    "combat": false,
+    "beds": false,
     "chat": false,
   },
   "combat": {
@@ -65,8 +65,8 @@
     "auto-eat": false
   },
   "beds": {
-    "pick-up-day": true,
-    "place-night": true
+    "pick-up-day": false,
+    "place-night": false
 
   },
   "chat": {
