@@ -8,8 +8,8 @@
   "server": {
     "ip": "apoclypse.falix.gg",
     "port": 25599,
-    "version": "",
-    "try-creative": true
+    "version": "1.21.1",
+    "try-creative": false
   },
   "position": {
     "enabled": true,
@@ -19,8 +19,7 @@
   },
   "utils": {
     "auto-auth": {
-      "enabled": true,
-      "password": "chalol78"
+      "enabled": true
     },
     "anti-afk": {
       "enabled": true,
@@ -35,32 +34,31 @@
       ]
     },
     "chat-log": true,
-    "auto-reconnect": true,
+    "auto-reconnect": false,
     "auto-reconnect-delay": 2000,
     "max-reconnect-delay": 120000
   },
   "movement": {
-    "enabled": false,
+    "enabled": true,
     "circle-walk": {
       "enabled": true,
       "radius": 4,
       "speed": 3000
     },
     "look-around": {
-      "enabled": false,
-      "interval": 5000
+      "enabled": true,
+      "interval": 1000
     },
     "random-jump": {
-      "enabled": false,
-      "interval": 10000
+      "enabled": true,
+      "interval": 1000
     }
   },
   "modules": {
-    "avoidMobs": true,
-    "combat": false,
-    "beds": false,
+    "avoidMobs": false,
+    "combat": true,
+    "beds": true,
     "chat": false,
-    "console-commands": true
   },
   "combat": {
     "attack-mobs": false,
@@ -69,15 +67,7 @@
   "beds": {
     "pick-up-day": true,
     "place-night": true
-  },
-  "discord": {
-    "enabled": false,
-    "webhookUrl": "YOUR_DISCORD_WEBHOOK_URL_HERE",
-    "events": {
-      "connect": true,
-      "disconnect": true,
-      "chat": false
-    }
+
   },
   "chat": {
     "respond": false
