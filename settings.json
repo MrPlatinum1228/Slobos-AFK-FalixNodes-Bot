@@ -6,7 +6,7 @@
     "type": "offline"
   },
   "server": {
-    "ip": "162.55.28.90:25599",
+    "ip": "apoclypse.falix.gg",
     "port": 25599,
     "version": "",
     "try-creative": false
